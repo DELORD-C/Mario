@@ -1,0 +1,37 @@
+html {
+    background-color: black;
+}
+
+#messages {
+    position: absolute;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    top: -5px;
+    left: 40px;
+}
+
+#victory {
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: right;
+    margin-right : 5px;
+}
+
+#loose {
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: right;
+    margin-right : 5px;
+}
+
+.bouton {
+    filter: grayscale(1) blur(2px);
+}
+
+
+.bouton:hover {
+    filter: grayscale(0) blur(0);
+}
